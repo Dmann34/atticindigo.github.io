@@ -1,0 +1,156 @@
+/* unvisited link */
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+        transition: all .3s ease-out;
+
+}
+
+/* mouse over link */
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-inverse {
+    padding-bottom: 5px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+ul.nav-list effect {
+    color: white;
+}
+body{
+    font-family: 'Della Respira', serif;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.page-title {
+    text-align: center;
+    text-decoration: underline;
+    color: #040404;
+}
+
+.col-md-4 img {
+    margin-bottom: 30px;
+}
+
+.col-md-12 {
+    margin-bottom: 30px;
+}
+.row {
+    margin: 15px 0 auto;
+}
+
+nav.navbar.navbar-inverse div.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav.navbar.navbar-inverse.container-fluid {
+    margin-top: 
+}
+
+.col-md-12 {
+    margin-top: 75px;
+}
+.col-md-12 {
+    background-color: #B9B9B9;
+}
+
+.col-md-12 {
+    padding-bottom: 15px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display",serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+    transition: all .3s ease-out;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+/*buttons*/
+.panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #040404;
+    border-color: #ddd;
+}
+
+.panel-heading {
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: "Hind",sans-serif;
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.panel-title>.small, .panel-title>.small>a:hover, .panel-title>a:hover, .panel-title>small, .panel-title>small>a:hover {
+    color: red;
+}
+
+.panel {
+    margin-bottom: 0px; 
+    background-color: #fff;
+    border: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    box-shadow: 2.6px 3.1px 0 rgba(0,0,55,0.28);
+}
+
+/* footer */
+div.navbar.navbar-fixed-bottom {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
+    background-color: red;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 127px;
+}
+
+div.navbar.navbar-fixed-bottom a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.navbar.navbar-fixed-bottom a {
+    color: #fff;
+}

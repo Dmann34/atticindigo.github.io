@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- metadata goes in head -->
+
+	<title>Contacts</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="Contacts.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- content goes in the body -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html"><img alt="Brand" src="AT.png"></a>
+    </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+	    <li><a href="Contacts.html">Contacts</a></li>
+	    <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+          </ul>
+	  <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+	  <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">
+          <span class="fa fa-user-plus" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="#">
+          <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+        </a></li>
+      </ul>
+        </div><!-- /.nav-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+  <form action="contact_me.php" method="post" name="contact_form">
+  <div class="container-fluid">
+  <div class="col-md-12">
+    <h1 class="page-title">Contact Us</h1>
+    <p class="form-description">
+	Tell Us How You Feel&#33; For order inquiries, comments and questions <a href="mailto:AtticIndigo@gmail.com">AtticIndigo@gmail.com</a>
+    </p>
+    <form>
+	<div class="form-group">
+    <input type="text" class="form-control" id="name" placeholder="Full Name" required="">
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" placeholder="Email" required="">
+  </div>
+  <div class="form-group">
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" required="">
+  </div>
+  <div class="form-group">
+  <textarea id="message" class="form-control" rows="5" placeholder="Message" required=""></textarea>
+  </div>
+  <button type="submit" id="form-submit" class="btn btn-default">Send Message</button>
+</form>
+    
+    <ul class="social">
+      <li><a href="#"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube-play fa-4x" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-tumblr-square fa-4x" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  </div>
+  </form>
+</div>
+  
+  <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2018 Copyright: <a href="http://dmann1981.com/">Dmann1981.com</a>
+
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

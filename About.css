@@ -1,0 +1,208 @@
+/* unvisited link */
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+        transition: all .3s ease-out;
+
+}
+
+/* mouse over link */
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-inverse {
+    padding-bottom: 5px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+ul.nav-list effect {
+    color: white;
+}
+body{
+    font-family: 'Della Respira', serif;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: black;
+        padding-bottom: 17px;
+        padding-top: 10px;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+p {
+    margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: block;
+    font-weight: 300;
+    color: #fff;
+}
+
+.footer .copyright ul.nav-list {
+    margin: 0 0 0 -5px;
+    padding: 0;
+}
+
+.footer .copyright ul.nav-list li {
+    margin-left: 0;
+}
+
+.nav-list li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+}
+
+.nav-list li a {
+    text-transform: uppercase;
+}
+
+.effect li a {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 5px;
+    background: 0 0;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+.effect li a:hover{
+    color: red;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+i{
+  color: red;  
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 640px;
+    
+}
+
+h1.page-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.col-md-12 p {
+    color: black;
+    font-size: larger;
+    text-indent: 25px;
+    line-height: 1.7em;
+}
+
+.footer {
+    margin-top: 274px;
+    background-color: black;
+        padding-bottom: 17px;
+        padding-top: 10px;
+}
+
+
+.pull-left {
+    float: left!important;
+}
+
+.pull-left.copyright p {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: block;
+    font-weight: 300;
+    color: #fff;
+}
+
+.footer .copyright ul.nav-list {
+    margin: 0 0 0 -5px;
+    padding: 0;
+}
+
+.footer .copyright ul.nav-list li {
+    margin-left: 0;
+}
+
+.nav-list li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+}
+
+.nav-list li a {
+    text-transform: uppercase;
+}
+
+.effect li a {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 5px;
+    background: 0 0;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+.effect li a:hover{
+    color: red;
+}
+
+
+i{
+  color: red;  
+}
+

@@ -1,0 +1,164 @@
+/* unvisited link */
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+        transition: all .3s ease-out;
+
+}
+
+/* mouse over link */
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-inverse {
+    padding-bottom: 5px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+ul.nav-list effect {
+    color: white;
+}
+body{
+    font-family: 'Della Respira', serif;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: block;
+    font-weight: 300;
+    color: #fff;
+}
+
+.nav-list li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+}
+
+.nav-list li a {
+    text-transform: uppercase;
+}
+
+.effect li a {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 5px;
+    background: 0 0;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+.effect li a:hover{
+    color: red;
+}
+
+i{
+  color: black;  
+}
+
+form {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+p.form-description {
+    margin-bottom: 40px;
+}
+.form-description, .page-title {
+    text-align: center;
+}
+
+.form-description {
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.form-description a:link {
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+
+
+.modal {
+    color: white;
+}
+
+i:hover {
+    color: red;
+    transition: all .3s;
+}
+
+ul.social {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.col-md-12 {
+    background-color: #f1f1f1;
+}
+
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+    transition: all .3s ease-out;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* footer */
+div.footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
+    background-color: red;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 52px;
+}
+
+div.footer-copyright a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.footer-copyright a {
+    color: #fff;
+}

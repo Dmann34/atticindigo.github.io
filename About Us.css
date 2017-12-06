@@ -1,0 +1,72 @@
+/* unvisited link */
+.navbar-inverse .navbar-nav>li>a:link {
+    color: white;
+        transition: all .3s ease-out;
+
+}
+
+/* mouse over link */
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-inverse {
+    padding-bottom: 5px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+ul.nav-list effect {
+    color: white;
+}
+
+body{
+    font-family: 'Della Respira', serif;
+}
+
+.col-md-12 {
+    background-color: #f1f1f1;
+    margin-top: 100px;
+}
+
+.page-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* footer */
+div.footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
+    background-color: red;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 126px;
+}
+
+div.footer-copyright a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.footer-copyright a {
+    color: #fff;
+}
